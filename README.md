@@ -16,7 +16,11 @@ DATASET : https://www.kaggle.com/c/donorschoose-application-screening
 Here we have tried 3 types of models:
 
 Model1: For Essay feature embedding features has been created using Glove model. All the words are considered while creating features. Since there are more features so model is converging very fast and hence within less number of epochs we are able to get the maximum roc_auc_score. Also here we have used label encoding for categorical features(Thanks for suggesting AAIC team)
+
+
 Model2: It is similar to Model 2 except that instead of taking all the words as features we are choosing most important features. This we are doing through idf vectorizer. we are not choosing top 25% (These are words like The, a which are most frequent but actually don't contain any meaning. Also bottom idf features are rare features which also do not add any importance. With only 50% important and meaningful features we are able to get good score although in more number of epochs than Model 1 and Model 2. If we use more epochs probably we can get better results.
+
+
 Model3: Here we are making use of convolution layer to learn any spatial feature in the categorical features. Both Model 1 and Model 3 are performing well, however Model 1 appears to converge faster. Instead of using label encoding here, We have used one hot encoding for categorical variables.
 
 
