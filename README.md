@@ -11,6 +11,9 @@ DATASET : https://www.kaggle.com/c/donorschoose-application-screening
 
 
 
+![plot](C:\Users\rap\Documents\ML\AAIC_new\Masters\Assignments\donors_choose_NB\donors_choose_new\donors_choose\score_comparison.PNG)
+
+
 # Conclusions
 
 Here we have tried 3 types of models:
