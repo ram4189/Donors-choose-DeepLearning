@@ -2,7 +2,7 @@
 
 DonorsChoose.org is a platform where public school teachers can request necessary materials and experiences for their students. At any given time, there are thousands of classroom requests that can be brought to life with a gift of any amount.
 
-Every year DonorsChoose.org receives hundreds of thousands of project proposals for classroom projects in need of funding. For manually screening such large amounts of data, right now, a large number of volunteers is required before it�s approved to be posted on the DonorsChoose.org website.
+Every year DonorsChoose.org receives hundreds of thousands of project proposals for classroom projects in need of funding. For manually screening such large amounts of data, right now, a large number of volunteers is required before it’s approved to be posted on the DonorsChoose.org website.
 
 DATASET : https://www.kaggle.com/c/donorschoose-application-screening 
 
@@ -10,7 +10,10 @@ DATASET : https://www.kaggle.com/c/donorschoose-application-screening
 # MEDIUM BLOG: https://medium.com/@smartrambit/deep-learning-project-donors-choose-application-screening-2b1d049a916
 
 
-![plot]('C:\Users\rap\Documents\ML\AAIC_new\Masters\Assignments\donors_choose_NB\donors_choose_new\donors_choose\score_comparison.PNG')
+
+
+
+![plot]('.\score_comparison.PNG')
 
 
 # Conclusions
@@ -27,7 +30,7 @@ Model3: Here we are making use of convolution layer to learn any spatial feature
 
 
 
-## 🚀 About Me
+## ðŸš€ About Me
 I love to deal with data ...
 
 ## Color Reference
